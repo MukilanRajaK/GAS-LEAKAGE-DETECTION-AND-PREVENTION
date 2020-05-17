@@ -5,7 +5,7 @@ to prevent gas leakages, so we have proposed a system to detect LPG/CNG gas leak
 scenarios and send a security alert to the housemates or industrial workers. In our project 
 we have used a MQ6 gas detection sensor and interfaced it with Raspberry Pi 
 development board along with GSM module for sending message to the user, a buzzer 
-for alerting users, a stepper motor and also an LCD display. Once the MQ6 gas sensor 
+for alerting users, two stepper motors and servo motors . Once the MQ6 gas sensor 
 senses CNG/LPG gas leakage, it passes the information to Raspberry Pi development 
 board, Raspberry Pi performs different tasks at the same time. The Raspberry pi first 
 triggers the buzzer for notifying the user that there is gas leakage, and cut off the 
